@@ -13,7 +13,7 @@ public class Ongs {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private long id;
+    private Long id;
 
     @NotBlank(message = "Name is mandatory")
     private String name;
